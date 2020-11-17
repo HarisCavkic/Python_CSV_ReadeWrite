@@ -12,6 +12,9 @@ fields = ["Firma","Objekt", "Anzahl Kameras", "Bereich", "Auflösung", "Aufzeich
 random = Random()
 
 
+
+
+
 with open('pending.csv', 'w', newline='') as csvfile:
     i = 0
     csv_writer = csv.DictWriter(csvfile, fieldnames= fields)
